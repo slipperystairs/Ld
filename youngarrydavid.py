@@ -2,10 +2,12 @@ import tweepy, time, sys
 
 argfile = str(sys.argv[1])
 
-CONSUMER_KEY = 'dPwYmO06udcsjTUSrb20OTFDg'
-CONSUMER_SECRET = 'bmYgOURpsuz48NZZITGXbtQlogS2DlAiPvv74gWZGtcisGNCMm'
-ACCESS_KEY = '4878629961-A1L2k1IVKotZKT90NGIw0Q3WLmyl1bYhcEAZnKP'
-ACCESS_SECRET = 'dOAkSXkieIBNa7renyop6qIlu0k2oxEbSKUoC7vUBgSUO'
+# CONSUMER_KEY, CONSUMER_SECRET, ACCESS_KEY, & ACCESS_SECRET 
+# are given to you when you create your twitter account.
+CONSUMER_KEY = ''
+CONSUMER_SECRET = ''
+ACCESS_KEY = ''
+ACCESS_SECRET = ''
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 api = tweepy.API(auth)
